@@ -1,0 +1,35 @@
+{
+  "name": "unit-test-task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BARSuk-gif/unit-test-task2.git"
+  },
+  "keywords": [],
+  "author": "Lara",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BARSuk-gif/unit-test-task2/issues"
+  },
+  "homepage": "https://github.com/BARSuk-gif/unit-test-task2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "babel-loader": "^9.2.1",
+    "eslint": "^10.6.0",
+    "eslint-plugin-jest": "^29.15.4",
+    "jest": "^30.4.2",
+    "jest-each": "^30.4.1"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  }
+}
